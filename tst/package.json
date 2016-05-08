@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "main": "index.html",
+  "window": {
+        "title": "Nodes",
+        "toolbar": true,
+        "resizable": true,
+        "position": "center"
+    }
+}

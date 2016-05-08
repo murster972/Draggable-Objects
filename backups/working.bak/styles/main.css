@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+::-moz-selection{
+	color: #03AFD2;
+	background-color: none;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+#connecter{
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+	position: absolute;
+	z-index: 1;
+	transform-origin: left;
+	left: 312px;
+	top: 110px;
+	/*left: 10px;
+	/*top: 10px;*/
+}
+
+.cirlce{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #03AFD2;
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#object_1{
+	top: 100px;
+	left: 300px;
+}
+
+#object_2{
+	background-color: #252837;
+	top: 0px;
+	left: 100px;
+}

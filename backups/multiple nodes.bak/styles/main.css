@@ -1,0 +1,96 @@
+@font-face{
+	font-family: FiraSans;
+	src: url('FiraSans-Regular.ttf');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+::-moz-selection{
+	color: #fff;
+	background-color: none;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+.connecter{
+	height: 5px;
+	background-color: #000;
+	position: absolute;
+	z-index: 1;
+	transform-origin: left;
+	left: 312px;
+	top: 110px;
+	/*left: 10px;
+	/*top: 10px;*/
+}
+
+.cirlce{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #252837;
+	font-family: FiraSans;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#object_1{
+	top: 0px;
+	left: 0px;
+}
+
+#object_2{
+	top: 0px;
+	left: 100px;
+}
+
+#object_3{
+	top: 0px;
+	left: 200px;
+}
+
+#object_4{
+	top: 0px;
+	left: 300px;
+}
+
+#object_5{
+	top: 0px;
+	left: 400px;
+}
+
+#object_6{
+	top: 100px;
+	left: 0px;
+}
+
+#object_7{
+	top: 100px;
+	left: 100px;
+}
+
+#object_8{
+	top: 100px;
+	left: 200px;
+}
+
+#object_9{
+	top: 100px;
+	left: 300px;
+}
+
+#object_10{
+	top: 100px;
+	left: 400px;
+}

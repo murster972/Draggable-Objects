@@ -1,0 +1,81 @@
+@font-face{
+	font-family: FiraSans;
+	src: url('FiraSans-Regular.ttf');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+::-moz-selection{
+	color: #fff;
+	background-color: none;
+}
+
+::-webkit-selection{
+	color: #fff;
+	background:rgba(255, 255, 255, 0.1);
+}
+
+#act_butn_container{
+	width: auto;
+	height: auto;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+}
+
+.act_butn{
+	width: auto;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #446CB5;
+	border: 2px solid #446CB5;
+	color: #fff;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-family: FiraSans;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	z-index: 3;
+	transition: .4s all;
+}
+
+.act_butn:hover{
+	background-color: #fff;
+	color: #446CB5;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+.connecter{
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+	position: absolute;
+	z-index: 1;
+	transform-origin: left;
+}
+
+.node{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #46A9E0;
+	font-family: FiraSans;
+	border: 0px solid #323A45;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+}
